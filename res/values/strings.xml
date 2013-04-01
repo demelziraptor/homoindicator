@@ -1,15 +1,13 @@
 <resources>
 
     <string name="app_name">HomoIndicator</string>
-    <string name="title_activity_main">Gayness, do u has???</string>
     
     <string name="edit_name">Enter your name</string>
     <string name="choose_question">And answer one of these important questions</string>
     <string name="button_send">Check your gayness</string>
     
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_display_message">A Great And Useful Message</string>
-    <string name="not_ready_text">"The app is not quite ready, but I can tell already that you are definitely gay, "</string>
+    <string name="title_activity_display_message">Your gayness is...</string>
+    <string name="gayness_result_text">"According to a thorough analysis of your name and answer, I can tell that you are definitely gay, "</string>
     <string name="unicorn_desc">A unicorn</string>
     
     <string name="preferences_menu_title">Settings</string>
