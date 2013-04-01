@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="@string/preferences_category_title"
+        android:key="first_category">
+        
+        <CheckBoxPreference 
+            android:key="gay"
+            android:title="@string/preferences_gay_title" 
+            android:summary="@string/preferences_gay_summary"
+            android:defaultValue="true"
+            android:enabled="false"
+        />
+               
+    </PreferenceCategory>
+
+</PreferenceScreen>

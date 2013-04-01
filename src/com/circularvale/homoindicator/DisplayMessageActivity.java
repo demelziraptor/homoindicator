@@ -32,7 +32,7 @@ public class DisplayMessageActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_display_message, menu);
+        getMenuInflater().inflate(R.menu.preferences, menu);
         return true;
     }
 
@@ -43,6 +43,9 @@ public class DisplayMessageActivity extends Activity {
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
                 return true;
+            case R.id.preferences_menu:
+            	Intent intent = new Intent(this, SettingsActivity.class);
+            	startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }
