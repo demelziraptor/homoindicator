@@ -19,6 +19,9 @@ public class DisplayMessageActivity extends Activity {
         // Get message from intent
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        if (message.isEmpty()) {
+        	message = "nameless human";
+        }
         
         // Set up the layout
         setContentView(R.layout.activity_display_message);

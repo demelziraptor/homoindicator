@@ -1,6 +1,5 @@
 homoindicator
 =============
 
-Test android app
-
-Currently at: http://developer.android.com/training/basics/firstapp/starting-activity.html
+Tiny android app to help you decide if you are gay.
+Includes conditional dropdown from XML file and multiline spinner.
