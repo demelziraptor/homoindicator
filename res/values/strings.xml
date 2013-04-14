@@ -6,7 +6,7 @@
     <string name="choose_question">And answer one of these important questions</string>
     <string name="button_send">Check your gayness</string>
     
-    <string name="title_activity_display_message">Your gayness is...</string>
+    <string name="title_activity_display_message">Your gayness is&#8230;</string>
     <string name="gayness_result_text">"According to a thorough analysis of your name and answer, I can tell that you are definitely gay, "</string>
     <string name="unicorn_desc">A unicorn</string>
     
@@ -15,5 +15,4 @@
     <string name="preferences_gay_title">EVERYBODY GAY</string>
     <string name="preferences_gay_summary">right???</string>
     
-
 </resources>

@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,7 +38,6 @@ public class MainActivity extends Activity {
 		spinner_questions = (Spinner) findViewById(R.id.spinner_questions);
 		Resources res = this.getResources();
 		String[] questions_list = res.getStringArray(R.array.questions);
-		Log.d("test", questions_list.toString());
 		
 		ArrayAdapter<String> qdataAdapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_spinner_item, questions_list);

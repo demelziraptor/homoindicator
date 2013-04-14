@@ -7,6 +7,7 @@
         <item>Which colour are you most likely to paint the outside of your house?</item>
         <item>If you had a giant animal that you rode around on, which would it be?</item>
         <item>Which name are you most likely to name the spider in the corner of your window?</item>
+        <item>How many turles fit in a bath tub?</item>
     </string-array>
     
     <string-array name="answers">
@@ -18,7 +19,10 @@
         <item>1_Pony</item>
         <item>2_Jimmy</item>
         <item>2_Jane</item>
-        <item>2_Jenny</item>
+        <item>2_Jo</item>
+        <item>3_4</item>
+        <item>3_27</item>
+        <item>3_701</item>
     </string-array>
 
 </resources>
